@@ -200,6 +200,11 @@ all programs are written in a simple and easy manner, suitable for beginners and
     
     print("Sum is:", total_sum)
 
+    or 
+        for i in range(1, n + 1):
+            total_sum=n*(n+1)/2
+        print("Sum is:", total_sum)
+
 ## 2️⃣Power without using multiplication and power operator
 
     x = int(input("Enter base: "))
