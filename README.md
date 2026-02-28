@@ -5,15 +5,6 @@ all programs are written in a simple and easy manner, suitable for beginners and
 
 # Level 1 – Basic Loop Logic
 
-## 1️⃣Sum of 10 numbers
-
-    total = 0
-    
-    for i in range(1, 11):
-        total = total + i
-    
-    print("Sum of 10 numbers is:", total)
-
 
 ## 2️⃣Find factorial of a given number (n!)
 
