@@ -74,25 +74,6 @@ all programs are written in a simple and easy manner, suitable for beginners and
 
 # Level 2 – Loops with Conditional Logic
 
-## 8️⃣Print numbers divisible by 2 between two numbers
-
-    start = int(input("Enter start number: "))
-    end = int(input("Enter end number: "))
-    
-    for i in range(start, end + 1):
-        if i % 2 == 0:
-            print(i)
-
-
-## 9️⃣Find factors of a given number
-
-    n = int(input("Enter a number: "))
-    
-    for i in range(1, n + 1):
-        if n % i == 0:
-            print(i)
-
-
 ## 🔟Find the sum of all divisors of a number
 
     n = int(input("Enter a number: "))
