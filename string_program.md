@@ -33,25 +33,6 @@ Output: Palindrome
         System.out.println("Not Palindrome");
     }
 
-## 2️⃣ Check Palindrome String
-
-Example
-Input: "madam"
-Output: Palindrome
-
-    String str = "madam";
-    String rev = "";
-    
-    for(int i = str.length()-1; i >= 0; i--){
-        rev += str.charAt(i);
-    }
-    
-    if(str.equals(rev)){
-        System.out.println("Palindrome");
-    }else{
-        System.out.println("Not Palindrome");
-    }
-
 ## 3️⃣ Count Vowels and Consonants
 
       String str = "programming";
@@ -69,24 +50,6 @@ Output: Palindrome
       
       System.out.println("Vowels: "+vowels);
       System.out.println("Consonants: "+consonants);
-
-## 3️⃣ Count Vowels and Consonants
-
-    String str = "programming";
-    int vowels = 0, consonants = 0;
-    
-    for(int i=0;i<str.length();i++){
-        char ch = str.charAt(i);
-    
-        if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-            vowels++;
-        }else{
-            consonants++;
-        }
-    }
-    
-    System.out.println("Vowels: "+vowels);
-    System.out.println("Consonants: "+consonants);
 
 ## 5️⃣ Count Frequency of Each Character
 
