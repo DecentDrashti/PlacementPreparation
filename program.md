@@ -253,13 +253,11 @@ all programs are written in a simple and easy manner, suitable for beginners and
 
 1
 
-2   4
+2   3
 
-7   3
+4   5  6
 
-5   8   6
-
-9  10
+7   8   9  10
 
 11  12  13  14  15
 
