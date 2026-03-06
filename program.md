@@ -238,16 +238,30 @@ all programs are written in a simple and easy manner, suitable for beginners and
 
 ## 4️⃣implement a pattern
 
-    *
-    
-    * * *
-    
+        *
+      * * *
     * * * * *
 
-    for i in range(1, 4):
-        for j in range(1, 2 * i):
-            print("*", end=" ")
-        print()
+    public class PyramidPattern {
+    public static void main(String[] args) {
+        int n = 3;   // number of rows
+
+        for (int i = 1; i <= n; i++) {
+
+            // print spaces
+            for (int j = i; j < n; j++) {
+                System.out.print("  ");
+            }
+
+            // print stars
+            for (int k = 1; k <= (2*i - 1); k++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
+    }
+}
 
 ## 5️⃣implement a pattern
 
