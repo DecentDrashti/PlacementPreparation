@@ -79,35 +79,6 @@ m=1
         System.out.println(str.charAt(i)+" = "+count);
     }
 
-## 5️⃣ Count Frequency of Each Character
-
-Example
-program
-
-Output
-
-p=1
-r=2
-o=1
-g=1
-a=1
-m=1
-
-
-    String str = "program";
-    
-    for(int i=0;i<str.length();i++){
-        int count=1;
-  
-        for(int j=i+1;j<str.length();j++){
-            if(str.charAt(i)==str.charAt(j)){
-                count++;
-            }
-        }
-    
-        System.out.println(str.charAt(i)+" = "+count);
-    }
-
 ## 6️⃣ Remove Spaces from String
 
     String str = "hello world java";
