@@ -12,30 +12,27 @@
 # Output: {'a': 1, 'p': 2, 'l': 1, 'e': 1}
 
 ## most reapeating char return that word from list
-words_list = ["cat", "apple", "banana", "hello"]
+words_list = ["cat", "apple", "ban", "hello"]
 
-    highest_repeat_word = ""
-    max_frequency_seen = 0
+    words_list = ["apple", "hello", "cat"]
+    word_scores = {}
     
+    # Pass 1: Calculate the max frequency score for every single word
     for word in words_list:
-        # Step 1: Count character frequencies for the current word
         char_counts = {}
         for char in word:
-            if char in char_counts:
-                char_counts[char] += 1
-            else:
-            char_counts[char] = 1
-            
-    # Step 2: Find the highest frequency in this specific word
-    current_word_max = 0
-    for char in char_counts:
-        if char_counts[char] > current_word_max:
-            current_word_max = char_counts[char]
-            
-    # Step 3: Check if this word beats the overall champion
-    if current_word_max > max_frequency_seen:
-        max_frequency_seen = current_word_max
-        highest_repeat_word = word
-
-print("Word with most repeating character:", highest_repeat_word)
-# Output: banana (because 'a' repeats 3 times)
+            char_counts[char] = char_counts.get(char, 0) + 1
+        
+        word_scores[word] = max(char_counts.values()) if char_counts else 0
+    
+    # Find the overall maximum score from our records
+    overall_max = max(word_scores.values())
+    
+    # Pass 2: Collect all words that match that top score
+    result = []
+    for word in words_list:
+        if word_scores[word] == overall_max:
+            result.append(word)
+    
+    print("All words with max frequency:", result)
+# Output: ['apple', 'hello']
