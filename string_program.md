@@ -158,6 +158,26 @@ p
           }
       }
 
+### or( in python)
+    text = "swiss"
+    frequency = {}
+    
+    # Step 1: Count frequencies
+    for char in text:
+        if char in frequency:
+            frequency[char] += 1
+        else:
+            frequency[char] = 1
+    
+    # Step 2: Find the first character with a count of 1
+    first_unique = None
+    for char in text:
+        if frequency[char] == 1:
+            first_unique = char
+            break
+    
+    print("First non-repeating character:", first_unique)# Output: w
+
 ## 9️⃣ Convert First Letter of Each Word to Capital
 
 Example
@@ -182,3 +202,28 @@ Hello World Java
     String words[] = str.split(" ");
     
     System.out.println("Total words = "+words.length);
+
+## 11 most reapeating char return that word from list
+    words_list = ["apple", "hello", "cat"]
+    word_scores = {}
+    
+    # Pass 1: Calculate the max frequency score for every single word
+    for word in words_list:
+        char_counts = {}
+        for char in word:
+            char_counts[char] = char_counts.get(char, 0) + 1
+        
+        word_scores[word] = max(char_counts.values()) if char_counts else 0
+    
+    # Find the overall maximum score from our records
+    overall_max = max(word_scores.values())
+    
+    # Pass 2: Collect all words that match that top score
+    result = []
+    for word in words_list:
+        if word_scores[word] == overall_max:
+            result.append(word)
+    
+    print("All words with max frequency:", result)
+    # Output: ['apple', 'hello']
+    
