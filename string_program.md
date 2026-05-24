@@ -65,19 +65,41 @@ g=1
 a=1
 m=1
 
-    String str = "program";
-    
-    for(int i=0;i<str.length();i++){
-        int count=1;
-    
-        for(int j=i+1;j<str.length();j++){
-            if(str.charAt(i)==str.charAt(j)){
-                count++;
+     String str = "program";
+        HashMap<Character, Integer> frequency = new HashMap<>();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            
+            // If character exists, increment count. Otherwise, start at 1.
+            if (frequency.containsKey(ch)) {
+                frequency.put(ch, frequency.get(ch) + 1);
+            } else {
+                frequency.put(ch, 1);
             }
         }
+
+        System.out.println(frequency); 
+### or(in python)
+        text = "program"
+        frequency = {}
+        for char in text:
+            # 1. Look for the character. If not found, start at 0.
+            # 2. Add 1 to that number.
+            frequency[char] = frequency.get(char, 0) + 1
+        
+        print(frequency)
+### or 
+    text = "program"
+    frequency = {}
     
-        System.out.println(str.charAt(i)+" = "+count);
-    }
+    for char in text:
+        if char in frequency:
+            frequency[char] = frequency[char] + 1  # Already saw it? Add 1
+        else:
+            frequency[char] = 1                    # New character? Start at 1
+    
+    print(frequency)
+
 
 ## 6️⃣ Remove Spaces from String
 
