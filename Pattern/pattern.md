@@ -46,7 +46,15 @@
             System.out.print((i + j) % 2 + " ");
         }
         System.out.println();
-    }
+    } 
+    or for start with 1
+    For i = 1 to Total_Rows:
+    For j = 1 to i:
+        If (i + j) % 2 == 0:
+            Print "1 "
+        Else:
+            Print "0 "
+    Print New Line
 
 ### Diamond Pattern
       int n = 4;
