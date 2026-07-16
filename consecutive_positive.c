@@ -1,3 +1,4 @@
+//Given a number N, print consecutive positive integers whose sum is equal to N. If no such sequence exists, print "Not Possible".
 #include <stdio.h>
 
 int main() {
