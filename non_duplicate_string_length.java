@@ -7,7 +7,7 @@ class Main {
         StringBuffer st=new StringBuffer();
        
             for(int i=0;i<s.length();i++){
-                if(st.indexOf(String.valueOf(s.charAt(i))) != -1){//indexof is used in string buffer not contains is used in string buffer and valueof will convert char into string because indexOf() in StringBuffer can search for a String. 
+                if(st.indexOf(String.valueOf(s.charAt(i))) != -1){//indexof is used in string buffer not contains is used in string buffer and valueof will convert char into string because indexOf() in StringBuffer can search for a String  Simply it converts 'a' to "a"
                     continue;
                 }
                 else {
