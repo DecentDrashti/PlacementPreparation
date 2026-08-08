@@ -1,6 +1,4 @@
 //given a string of surname you need to get unique characters and then find the length if it is even then print even else odd
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
 import java.util.*;
 class Main {
     public static void main(String[] args) {
@@ -9,7 +7,7 @@ class Main {
         StringBuffer st=new StringBuffer();
        
             for(int i=0;i<s.length();i++){
-                if(st.indexOf(String.valueOf(s.charAt(i))) != -1){
+                if(st.indexOf(String.valueOf(s.charAt(i))) != -1){//indexof is used in string buffer not contains is used in string buffer and valueof will convert char into string because indexOf() in StringBuffer can search for a String. 
                     continue;
                 }
                 else {
