@@ -14,7 +14,7 @@ public class Palindromestring{
             System.out.println("string is palindrome");
 
         }else{
-            System.out.println("sring is not palindrome");
+            System.out.println("string is not palindrome");
         }
     }
 }//char ch=sc.next()CharAt(0)
