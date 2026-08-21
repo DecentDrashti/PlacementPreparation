@@ -261,7 +261,7 @@ all programs are written in a simple and easy manner, suitable for beginners and
             System.out.println();
         }
     }
-}
+    }
 
 ## 5️⃣implement a pattern
 
