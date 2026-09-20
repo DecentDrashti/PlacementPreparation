@@ -1,3 +1,44 @@
+import java.util.Stack;
+
+public class ValidBrackets {
+
+    public static boolean isValid(String s) {
+        Stack<Character> stack = new Stack<>();
+
+        for (char ch : s.toCharArray()) {
+
+            // If opening bracket, push to stack
+            if (ch == '(' || ch == '{' || ch == '[') {
+                stack.push(ch);
+            }
+            // If closing bracket
+            else {
+                // Stack empty means no matching opening
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+                char top = stack.pop();
+
+                if ((ch == ')' && top != '(') ||
+                    (ch == '}' && top != '{') ||
+                    (ch == ']' && top != '[')) {
+                    return false;
+                }
+            }
+        }
+
+        // Stack must be empty at end
+        return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isValid("{[()]}")); // true
+        System.out.println(isValid("([)]"));   // false
+    }
+}
+//or
+
 import java.util.*;
 
 public class Solution {
