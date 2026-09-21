@@ -62,3 +62,6 @@ public class MinNumber {
         System.out.println(smallestNumber(num));
     }
 }
+//string to integer
+//int result = Integer.parseInt(new String(digits));
+       // System.out.println(result);
