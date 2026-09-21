@@ -4,7 +4,7 @@
 // Note that the sign of the number does not change a er rearranging the digits. 
 // Input: num = 310 
 // Output: 103 
-// Explana on: The possible arrangements for the digits of 310 are 013, 031, 103, 130, 301, 
+// Explanation: The possible arrangements for the digits of 310 are 013, 031, 103, 130, 301, 
 // 310. 
 // The arrangement with the smallest value that does not contain any leading zeros is 103. 
 
