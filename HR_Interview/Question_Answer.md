@@ -8,11 +8,15 @@ A practical starter guide for common HR interview questions for fresher and entr
 
 **Sample answer:**
 
-Good morning. I'm Drashti Ruparelia, pursuing a B.Tech in Computer Science and Engineering from Darshan University.
+I'm currently pursuing my B.Tech in Computer Science and Engineering from Darshan University.
 
-I have worked on academic projects involving full-stack development, databases, and AI/ML. These projects have helped me develop practical problem-solving skills and understand how to build applications from the backend to the user interface.
+I have developed a strong interest in software development, particularly backend development and full-stack technologies. My technical skills include C#, .NET, Python, SQL, JavaScript, React and Next.js.
 
-I have also worked as a Teaching Assistant, which improved my communication, patience, and ability to explain technical concepts clearly. I'm now looking for an opportunity where I can apply my skills, learn from experienced professionals, and grow as a software engineer.
+During my academic journey, I've worked on projects such as ProjecTrack, a project management platform built using Next.js, TypeScript, Prisma and MySQL, and HeartSense AI, a machine-learning-based cardiovascular risk prediction application.
+
+I have also gained practical experience as a .NET Teaching Assistant, where I worked with students on programming concepts and application development.
+
+I'm now looking for an opportunity where I can apply my technical knowledge, improve my development skills and contribute to real-world software projects.
 
 **Answer structure:** Education → relevant skills/projects → experience or responsibility → what you are looking for.
 
@@ -42,7 +46,7 @@ My strengths are that I am a practical learner, responsible, and persistent when
 
 **Sample answer:**
 
-One area I am working on is breaking the ice in new professional or social situations. Initially, I may take some time to become comfortable starting a conversation. I have been improving this by reaching out to people, asking questions, and participating more actively in discussions. I have already become more comfortable with it, and I am continuing to work on it.
+One area I'm improving is how I approach problems under time pressure. Sometimes I spend too much time exploring multiple approaches. I'm working on improving my prioritisation and decision-making.
 
 **Tip:** Be honest. Explain what you are doing to improve; avoid presenting a fake weakness as a strength.
 
