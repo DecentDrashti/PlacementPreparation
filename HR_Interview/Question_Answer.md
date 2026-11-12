@@ -58,6 +58,12 @@ One area I'm improving is how I approach problems under time pressure. Sometimes
 
 In five years, I see myself as a skilled and dependable professional with strong technical knowledge and practical industry experience. I would like to take ownership of challenging tasks, contribute meaningfully to projects, and gradually handle greater responsibilities while continuing to learn.
 
+In the next five years, I see myself growing into a well-rounded and dependable software engineer who can independently handle responsibilities and contribute to meaningful projects.
+
+I want to deepen my technical expertise, gain practical industry experience, and develop a better understanding of how real-world software systems are designed and maintained.
+
+Beyond technical growth, I'd also like to become someone who can guide junior team members, share knowledge, and take ownership of larger responsibilities. Most importantly, I hope to grow alongside the organisation and make a meaningful contribution to its success.
+
 ---
 
 ## 6. Why do you want to join our company?
